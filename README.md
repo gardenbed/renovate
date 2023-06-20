@@ -4,6 +4,26 @@ This repository includes reusable *Renovate* configurations for *GardenBed* repo
 
 ## Quick Start
 
+For general repositories:
+
+```json
+{
+  "extends": [
+    "github>gardenbed/renovate"
+  ]
+}
+```
+
+For [Go](https://go.dev) repositories:
+
+```json
+{
+  "extends": [
+    "github>gardenbed/renovate:go"
+  ]
+}
+```
+
 ## Resources
 
   - **Renovate Docs**
