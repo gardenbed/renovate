@@ -1,0 +1,25 @@
+{
+  "description": "Configurations for Go repositories",
+  "extends": [
+    "github>gardenbed/renovate"
+  ],
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
+  "packageRules": [
+    {
+      "groupName": "experimental packages",
+      "schedule": [ "every weekend" ],
+      "packagePatterns": [
+        "^golang.org/x/"
+      ]
+    },
+    {
+      "groupName": "high-frequency packages",
+      "schedule": [ "every weekend" ],
+      "packageNames": [
+        "github.com/aws/aws-sdk-go"
+      ]
+    }
+  ]
+}

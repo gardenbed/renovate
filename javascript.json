@@ -1,0 +1,16 @@
+{
+  "description": "Configurations for JavaScript repositories",
+  "extends": [
+    "github>gardenbed/renovate"
+  ],
+  "packageRules": [
+    {
+      "groupName": "high-frequency packages",
+      "schedule": [ "every weekend" ],
+      "packageNames": [
+        "eslint",
+        "jest"
+      ]
+    }
+  ]
+}

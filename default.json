@@ -1,0 +1,7 @@
+{
+  "description": "Default configurations for all repositories",
+  "extends": [
+    "config:base"
+  ],
+  "timezone": "America/Toronto"
+}
