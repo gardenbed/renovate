@@ -9,4 +9,3 @@
 
   - [ ] PR title is clear and describes the change
   - [ ] Commit messages are self-explanatory and summarize the change
-  - [ ] Tests are provided for the new change
